@@ -14,6 +14,6 @@ Simply copy and paste the content of config.jsonc to your current config file
 
 Copy and paste this into your terminal:
 
-```
+```bash
 git clone https://github.com/Mae-Meow/fastfetch-theme-mae && cd fastfetch-theme-mae && chmod +x ./fastfetch_setup.sh && ./fastfetch_setup.sh
 ```

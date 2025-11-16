@@ -1,0 +1,109 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+      "type": "kitty-direct",
+      "source": "/home/mae/Pictures/kafkastare.png",
+      "width": 37,
+      "height": 21
+  },
+
+  "display": {
+    "separator": " | "
+  },
+  "modules": [
+  "break",
+  {
+    "type": "title",
+    "key": " 🏳️‍⚧️ ≽^•⩊•^≼",
+    "format": "{6}{7}{8}"
+  },
+      {
+    "type": "custom",
+    "format": "╭──────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────╮"
+  },
+  {
+    "type": "os",
+    "key": " ❀ OS      ",
+    "keyColor": "red"
+  },
+  {
+    "type": "wm",
+    "key": " ☾ WM      ",
+    "keyColor": "red"
+  },
+  {
+    "type": "bios",
+    "key": " ♨ Bios    ",
+    "keyColor": "red"
+  },
+  {
+    "type": "kernel",
+    "key": " 𖠌 Kernel  ",
+    "format": "{2}",
+    "keyColor": "red"
+  },
+  {
+    "type": "packages",
+    "key": " ⬚ Packages",
+    "keyColor": "red"
+  },
+  {
+    "type": "terminal",
+    "key": " > Terminal",
+    "keyColor": "red"
+  },
+  {
+    "type": "board",
+    "key": " ✦ Mobo    ",
+    "keyColor": "blue"
+  },
+  {
+    "type": "cpu",
+    "key": " 𖡎 CPU     ",
+    "temp": true,
+    "keyColor": "blue"
+  },
+  {
+    "type": "gpu",
+    "key": " ♡ GPU     ",
+    "temp": true,
+    "keyColor": "blue"
+  },
+  {
+    "type": "memory",
+    "key": " ↻ Memory  ",
+    "keyColor": "blue"
+  },
+  {
+    "type": "display",
+    "key": " ⎚ Display ",
+    "format": "{1}x{2} @ {3}Hz",
+    "keyColor": "green"
+  },
+  {
+    "type": "weather",
+    "key": " ☁︎ Weather ",
+    "keyColor": "magenta"
+  },
+  {
+    "type": "locale",
+    "key": " 𔓘 Locales ",
+    "keyColor": "magenta"
+  },
+  {
+    "type": "uptime",
+    "key": " ♥︎ Uptime  ",
+    "keyColor": "magenta"
+  },
+  {
+    "type": "custom",
+    "format": "╰──────────────────────── ⋆⋅☆⋅⋆ ──────────────────────────╯"
+  },
+  {
+    "type": "colors",
+    "paddingLeft": 21,
+    "symbol": "square"
+  },
+  "break"
+  ]
+}

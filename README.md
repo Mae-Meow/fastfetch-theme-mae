@@ -1,5 +1,7 @@
 # fastfetch-theme-mae
-My custom fastfetch config file
+My custom fastfetch config file with an image insted of CLI OS logo.
+
+(it's set up for Kitty terminal so image will not work in a different terminal with this setup)
 
 <img width="1056" height="430" alt="image" src="https://github.com/user-attachments/assets/3ce44a0a-b7c1-4c4e-9107-2a5fd1de50bd" />
 
